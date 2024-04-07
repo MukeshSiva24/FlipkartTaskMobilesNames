@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<listeners>
+		<listener class-name="FlipkartTestNGStep.IAnnotationTransfer"></listener>
+	</listeners>
+  <test  name="Test1">
+	  <parameter name="Sheet" value="Mobile Names By using Edge"></parameter>
+	  <parameter name="Browser" value="Edge"></parameter>
+    <classes>
+      <class name="FlipkartTestNGStep.TestMobileNames"/>
+    </classes>
+  </test> 
+  <test name="Test2">
+	  	  <parameter name="Sheet" value="Mobile Names By using Chrome"></parameter>
+	  	  <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="FlipkartTestNGStep.TestMobileNames"/>
+    </classes>
+  </test>
+</suite> 

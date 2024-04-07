@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-07T19:05:59 IST" name="Suite" finished-at="2024-04-07T19:07:13 IST" duration-ms="73879">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestMobileNames.searchBar(java.lang.String)[pri:1, instance:FlipkartTestNGStep.TestMobileNames@eadd4fb]" name="searchBar" class="FlipkartTestNGStep.TestMobileNames"/>
+        <method signature="TestMobileNames.mobileName(java.lang.String,java.lang.String)[pri:2, instance:FlipkartTestNGStep.TestMobileNames@eadd4fb]" name="mobileName" class="FlipkartTestNGStep.TestMobileNames"/>
+        <method signature="TestMobileNames.searchBar(java.lang.String)[pri:1, instance:FlipkartTestNGStep.TestMobileNames@210ab13f]" name="searchBar" class="FlipkartTestNGStep.TestMobileNames"/>
+        <method signature="TestMobileNames.mobileName(java.lang.String,java.lang.String)[pri:2, instance:FlipkartTestNGStep.TestMobileNames@210ab13f]" name="mobileName" class="FlipkartTestNGStep.TestMobileNames"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-04-07T19:05:59 IST" name="Test1" finished-at="2024-04-07T19:06:41 IST" duration-ms="41769">
+      <class name="FlipkartTestNGStep.TestMobileNames">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:FlipkartTestNGStep.TestMobileNames@eadd4fb]" started-at="2024-04-07T19:06:00 IST" name="LaunchBrowser" finished-at="2024-04-07T19:06:19 IST" duration-ms="19591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="methodName()[pri:0, instance:FlipkartTestNGStep.TestMobileNames@eadd4fb]" started-at="2024-04-07T19:06:19 IST" name="methodName" finished-at="2024-04-07T19:06:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method signature="searchBar(java.lang.String)[pri:1, instance:FlipkartTestNGStep.TestMobileNames@eadd4fb]" started-at="2024-04-07T19:06:19 IST" name="searchBar" data-provider="ok" finished-at="2024-04-07T19:06:25 IST" duration-ms="6048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new mobiles 5g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method is-config="true" signature="methodsName()[pri:0, instance:FlipkartTestNGStep.TestMobileNames@eadd4fb]" started-at="2024-04-07T19:06:25 IST" name="methodsName" finished-at="2024-04-07T19:06:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodsName -->
+        <test-method is-config="true" signature="methodName()[pri:0, instance:FlipkartTestNGStep.TestMobileNames@eadd4fb]" started-at="2024-04-07T19:06:25 IST" name="methodName" finished-at="2024-04-07T19:06:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method signature="mobileName(java.lang.String,java.lang.String)[pri:2, instance:FlipkartTestNGStep.TestMobileNames@eadd4fb]" started-at="2024-04-07T19:06:25 IST" name="mobileName" finished-at="2024-04-07T19:06:41 IST" duration-ms="15679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mobile Names By using Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileName -->
+        <test-method is-config="true" signature="methodsName()[pri:0, instance:FlipkartTestNGStep.TestMobileNames@eadd4fb]" started-at="2024-04-07T19:06:41 IST" name="methodsName" finished-at="2024-04-07T19:06:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodsName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:FlipkartTestNGStep.TestMobileNames@eadd4fb]" started-at="2024-04-07T19:06:41 IST" name="closeBrowser" finished-at="2024-04-07T19:06:41 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- FlipkartTestNGStep.TestMobileNames -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-04-07T19:06:41 IST" name="Test2" finished-at="2024-04-07T19:07:13 IST" duration-ms="32089">
+      <class name="FlipkartTestNGStep.TestMobileNames">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:FlipkartTestNGStep.TestMobileNames@210ab13f]" started-at="2024-04-07T19:06:41 IST" name="LaunchBrowser" finished-at="2024-04-07T19:07:01 IST" duration-ms="20220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="searchBar(java.lang.String)[pri:1, instance:FlipkartTestNGStep.TestMobileNames@210ab13f]" started-at="2024-04-07T19:07:01 IST" name="searchBar" data-provider="ok" finished-at="2024-04-07T19:07:11 IST" duration-ms="9386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new mobiles 5g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method is-config="true" signature="methodName()[pri:0, instance:FlipkartTestNGStep.TestMobileNames@210ab13f]" started-at="2024-04-07T19:07:01 IST" name="methodName" finished-at="2024-04-07T19:07:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method is-config="true" signature="methodsName()[pri:0, instance:FlipkartTestNGStep.TestMobileNames@210ab13f]" started-at="2024-04-07T19:07:11 IST" name="methodsName" finished-at="2024-04-07T19:07:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodsName -->
+        <test-method signature="mobileName(java.lang.String,java.lang.String)[pri:2, instance:FlipkartTestNGStep.TestMobileNames@210ab13f]" started-at="2024-04-07T19:07:11 IST" name="mobileName" finished-at="2024-04-07T19:07:13 IST" duration-ms="2150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mobile Names By using Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileName -->
+        <test-method is-config="true" signature="methodName()[pri:0, instance:FlipkartTestNGStep.TestMobileNames@210ab13f]" started-at="2024-04-07T19:07:11 IST" name="methodName" finished-at="2024-04-07T19:07:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method is-config="true" signature="methodsName()[pri:0, instance:FlipkartTestNGStep.TestMobileNames@210ab13f]" started-at="2024-04-07T19:07:13 IST" name="methodsName" finished-at="2024-04-07T19:07:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodsName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:FlipkartTestNGStep.TestMobileNames@210ab13f]" started-at="2024-04-07T19:07:13 IST" name="closeBrowser" finished-at="2024-04-07T19:07:13 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- FlipkartTestNGStep.TestMobileNames -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
